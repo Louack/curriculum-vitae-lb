@@ -8,7 +8,7 @@ p {
 
 h3 {
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 h5 {
@@ -103,15 +103,14 @@ a:hover {
 
 .sl-element {
   width: 100%;
-  margin: 10px;
+  margin: 10px 10px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .sl-element h4 {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 0px;
 }
 
 .sr-element {
@@ -126,7 +125,7 @@ a:hover {
 
 .sr-element h3 {
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .sr-element ul {
@@ -229,7 +228,7 @@ img {
 
 #contact-portfolio {
   position: relative;
-  margin-top: 30px;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
 }
@@ -254,7 +253,7 @@ img {
 .golden-title-container div {
   position: absolute;
   background-color: rgb(235, 199, 0);
-  height: 390px;
+  height: 355px;
   top: 16px;
   width: 100%;
   z-index: 0;
@@ -265,7 +264,6 @@ img {
   flex-direction: column;
   align-items: center;
   color: rgb(75, 75, 75);
-  padding-top: 10px;
   width: 100%;
   z-index: 0;
 }
@@ -274,11 +272,43 @@ img {
   background-color: rgb(75, 75, 75);
   height: 1px;
   width: 125px;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .last-span {
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 12px;
   font-weight: 100;
+}
+
+#certif ul {
+  margin-left: -40px;
+  position: relative;
+  list-style-type: none;
+}
+
+#certif h4 {
+  margin-bottom: 5px;
+}
+
+.certif-platform-item {
+  display: flex;
+  margin-left: -15px;
+  align-items: center;
+}
+
+.certif-platform-item img {
+  display: flex;
+  width: 35px;
+  margin: 3px 15px;
+  border-radius: 5px;
+}
+
+.certif-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+#legend {
+  color: rgb(249, 98, 73);
 }
